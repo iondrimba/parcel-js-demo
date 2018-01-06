@@ -1,0 +1,29 @@
+{
+  "name": "parcel-js-demo",
+  "version": "1.0.0",
+  "description": "Testing Parcel Js build system https://parceljs.org/",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel --port 3000 -o ./src/index.html&& parcel watch ./src/index.html",
+    "build": "parcel build ./src/index.html --out-dir public/ --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iondrimba/parcel-js-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iondrimba/parcel-js-demo/issues"
+  },
+  "homepage": "https://github.com/iondrimba/parcel-js-demo#readme",
+  "dependencies": {
+    "autoprefixer": "^7.2.4",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.4.1",
+    "postcss-modules": "^1.1.0"
+  }
+}
